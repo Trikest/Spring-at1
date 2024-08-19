@@ -17,7 +17,7 @@ public class DemoApplication {
     }
     @GetMapping("/react1")
     public ModelAndView index() throws ExecutionException, InterruptedException {
-        //react
+        //react volta
          ModelAndView mav = new ModelAndView("react/index");
         return mav;
     }

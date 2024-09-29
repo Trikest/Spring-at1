@@ -13,7 +13,7 @@ public class RestController1 {
       
         return (grau * 1.8 + 32);
     }
-
+//conexao
     @GetMapping("/fahrenheitParaCelsius/{grau}")
     public double fahrenheitParaCelsius(@PathVariable double grau) {
         return ((grau - 32) / 1.8);
